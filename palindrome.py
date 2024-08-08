@@ -1,6 +1,6 @@
-a="mummy"
-b=a[::-1]
-if(a==b):
-    print("palindrome")
-else:
-    print("not")
+a=[7,8,9,244,5,52,7,8,9]
+final=[]
+for i in a:
+ if(i not in final):
+  final.append(i)
+ print(final)

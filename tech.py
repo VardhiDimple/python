@@ -1,0 +1,8 @@
+string=raw_input("enter a string")
+string= string.upper()
+sort=sorted(string)
+print(sort)
+join="".join(sort)
+rev=''.join(reversed(join))
+print(join)
+print(rev)
